@@ -1,5 +1,5 @@
 # Opening
-Hallo guys, kali ini kita akan belajar menggunakan VCS video call sange :v ..eh..bukan bukan ...VCS(Version control System) git. langsung saja no basa basi...karena muka ada sudah basi :v
+Hallo guys, kali ini kita akan belajar menggunakan VCS Video Call Sange :v ..eh..bukan bukan ...VCS(Version Control System). langsung saja no basa basi...karena muka anda sudah basi :v
 
 
 # Requirement
