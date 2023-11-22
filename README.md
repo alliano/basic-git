@@ -25,7 +25,7 @@ Jika kita perhatikan, cara tersebut bukanlah cara yang efisien, dan kita perlu k
 ## -> VCS (Version Control System)
 VCS atau Verson Control System adalah sebuah software atau system yang akan melakukan tracking atau merekam perubahan yang terjadi pada file.  
   
-File disini tidak hanya file yang txt atau file pemrograman, namun bisa juga file gambar, grafik, layout dan sebagainya kesemuanya file tersebut dapat di rekam oleh git.  
+File disini tidak hanya file txt atau file pemrograman, namun bisa juga file gambar, grafik, layout dan sebagainya kesemuanya file tersebut dapat di rekam oleh git.  
 
 Oleh karna itu kita dapat melakuakn versioning dengan mudah, evisien, dan tetunya kita bisa melakukan menejeman verison yang baik.  
 
@@ -63,4 +63,20 @@ Git pertama kali di kenalkan oleh Linus Torvalds pada tahun 2005, dan karena git
 
 Refrence : https://git-scm.com/book/id/v2/Memulai-Sejarah-Singkat-Git
 
-# 
+# Install Git
+Git tersedia di banyak sistem operasi Mac, Linux, Windows.  
+kita bisa mendownload git dari https://git-scm.com/downloads  
+dan sesuaikan degan sistem operasi temen-temen.  
+  
+Untuk pengguna windows setelah menginstall git dari Instaler yang di download maka akan memiliki applikasi yang namanya gitBash. Nah di applikasi ini nanti kita akan menggunakan Git.
+
+# Configuration
+Setelah berhasil menginstall Git, Hal wajib pertama yang harus kita lakukan yaitu melakukan setting username dan email pada Git.  
+Kita dapat melakukan config userame nya dengan menggunakan command berikut ini :
+```sh
+git config --global user.name "alliano-dev"
+```
+Untuk melakukan setting email nya :
+```sh
+git config --global user.email "allianoanonymous@gmail.com"
+```
