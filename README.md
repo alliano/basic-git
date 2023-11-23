@@ -44,7 +44,7 @@ Saat kita menggunakan Local Version Control, permasalahan yang sering muncul yai
   
   Namun kekurangan Centralized Version Control ini kita hanya bisa melihat riwayat perubahan jikalau kita online, dan jikalau servernya mati maka semua orang tidak dapat melihat riwayat perubahan.
 
-  ![img_Centrialized_version_control](../Git/images/Centralized_version.png)
+  ![img_centrialized_version_control](../Git/images/centralized_version.png)
 * **Distributed Version Control(DVC)**  
   Dalam DVC ini semua riwayat perubahan akan di simpan di server dan local computer, jadi seluruh riwayat yang disimpan di server akan di copy di local computer.
 
@@ -80,3 +80,19 @@ Untuk melakukan setting email nya :
 ```sh
 git config --global user.email "allianoanonymous@gmail.com"
 ```
+# Repository
+Repository merupakan sebuatan project yang di manage oleh git. Misalnya kita memiliki project membuat halaman html sederhana dan project tersebut di manage atau di tracking oleh git, maka project tersebut kita sebut sebagai __Repository__
+
+# Membuat Repository
+Untuk membuat repository, caranya cukuplah mudah hanya menggunakan command :
+``` sh
+git init
+```
+Pada folder yang memuat file project kita, misalnya saya memiliki project seperti berikut ini :  
+![membuat_repo](./images/demo_membuat_repository-1.png)
+Maka ketika saya ingin mengubah file tersebut menjadi repository git, saya bisa menjalan perintah `git init .` pada git bash atau terminal(untuk pengguna system UNIX).  
+> **note** : *tanda titik (.) setelah command git init digunakan untuk memberitau git bahwa semua file yang ada pada folder tersebut merupakan bagian repository*
+  
+Setelah menajalankan perintah `git init .` maka kita akan diberikan file .git
+![git_init](./images/init-git.png)
+
